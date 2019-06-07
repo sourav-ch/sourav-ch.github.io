@@ -1,0 +1,7 @@
+- name: Adobe Lighroom
+  percentage: 95
+  color: info
+
+- name: Blender
+  percentage: 70
+  color: success
