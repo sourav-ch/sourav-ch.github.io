@@ -1,16 +1,18 @@
----
-layout: page
-title: About
-permalink: /about/
-weight: 3
----
-# **About Me**
-Hi I am **{{ site.author.name }}** :wave:,<br>
-I’m a Software Engineer over at Honeywell, and I graduated with my Bachelor's from Amrita Vishwa Vidhyapeetham. I’m all about tackling problems head-on and constantly diving into new tech to learn and grow. Always up for a challenge and passionate about what I do!
-<div class="row">
-{% include about/skills.html title="Programming Skills" source=site.data.programming-skills %}
-{% include about/skills.html title="Other Skills" source=site.data.other-skills %}
-</div>
-<div class="row">
-{% include about/timeline.html %}
-</div>
+- title: B.Tech in CS, Amrita Vishwa Vidhyapeetham
+  from: 2019
+  to: 2023
+  description: College was a blast! I spent my days diving into computer science,
+               and my nights leading the football team as captain. 
+               Balancing coding assignments with game strategies taught me a ton about time management and staying calm under pressure. 
+               The teamwork skills I picked up in football really helped me in group projects, and vice versa. 
+               It was all about staying focused, working together, and having fun along the way!
+- title: Software Engineer, Honeywell, Bangalore
+  from: 2023
+  to: present
+  description: I kicked off my journey with a 6-month internship where I got hands-on experience with Full Stack Development and automation, 
+               understanding and learning crucial industry software.
+               I’m currently working as a software developer at Honeywell, 
+               where I get to dive into both full-stack development and automation projects. 
+               It’s been a great mix of coding, problem-solving, and making processes more efficient. 
+               On the side, I’ve also been exploring Data Science and getting my head around things like LLMs (Large Language Models). 
+               It’s exciting to learn how all these technologies fit together and how they can shape the future of software development!
